@@ -13,10 +13,12 @@ An RLC series circuit with a resistor (R), inductor (L), and capacitor (C) in se
 The differential equation governing the RLC circuit is:
 
 V(t)=VR +VL +VC
+
 ​V(t)=Ri(t)+L(di(t)/dt) + (1/c)∫i(t)dt
 
-For a step input voltage 
+For a step input voltage:-
 𝑉(𝑡) = 𝑉0
+
 𝑉0=𝑅𝑖(𝑡)+𝐿𝑑𝑖(𝑡)𝑑𝑡+1/𝐶∫𝑖(𝑡)𝑑𝑡
 
 3. Solving the Equations Using MATLAB
